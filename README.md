@@ -16,3 +16,8 @@ Please replace the files in the same directory in the EOS project and add the pl
     * filter-mongodb-wipe -- Required with --replay-blockchain, --hard-replay-blockchain, or --delete-all-blocks to wipe mongo db;
     * filter-contract -- Filter the contract actions by contract acccount name, use multiple;
 
+## Notes
+
+Before use this plugins, please **update you mongo-c-driver and mongo-cxx-driver** to the latest.
+When I test, use mongo-c-driver-1.11.0, and the latest mongo-cxx-driver in github.
+
